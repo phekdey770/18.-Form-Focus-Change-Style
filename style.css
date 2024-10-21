@@ -1,0 +1,38 @@
+body {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    background-color: rgb(130, 167, 136);
+}
+
+form {
+    border: 2px solid #CCBC82;
+    padding: 8px;
+    border-radius: 2px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+form:focus-within {
+    background: #f0d77c;
+}
+
+label {
+    display: inline-block;
+    width: 72px;
+    font-family: monospace;
+    font-size: large;
+}
+
+input {
+    margin: 4px 12px;
+    font-family: monospace;
+    border: 0px;
+    border-radius: 3px;
+    font-size: large;
+}
+
+input:focus-within {
+    border: 0px;
+}
